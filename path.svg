@@ -1,0 +1,29 @@
+<svg version="1.1"
+     width="100" height="100"
+     xmlns="http://www.w3.org/2000/svg">
+    <rect width="100" height="100" fill="teal"/>
+    <path d="M 10 10 h 20 v 20 z" fill="transparent" stroke="black"/>
+    <path d="M 40 10 h 20 v 20 z" fill="transparent" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+    <path id="text-path" d="M 70 10 h 20 v 20 z" fill="transparent" stroke="black" stroke-width="3" stroke-linejoin="round" stroke-opacity="0.1"/>
+    <text font-size="6">
+    <textPath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#text-path">
+        how are you doing
+    </textPath>
+    </text>
+    <path d="M 40 40 h 20 v 20 z" fill="transparent" stroke="black" stroke-width="3" stroke-linejoin="round">
+        <animate attributeName="stroke-width" values="0;5;0" dur="5s" repeatCount="indefinite"/>
+            
+    </path>
+    <path d="M 10 30 c 0 10, 10 10, 10 0"/>
+    <path d="M 10 40 c 5 10, 5 10, 10 0"/>
+    <path d="M 10 50 c -10 10, 20 10, 10 0"/>
+    <path d="M 10 60 c -10 10, 20 10, 10 0 z" stroke="#6c9" fill-opacity="0.5"/>
+    <path d="M 10 70 c -10 10, 20 10, 10 0" stroke="#6c9" fill="transparent" stroke-linecap="round"/>
+
+    <g fill="blue">
+    <path d="M 10 80 c -10 10, 20 10, 10 0" stroke="#6c9"  stroke-linecap="round"/>
+    <path d="M 10 90 c -10 10, 20 10, 10 0" fill="#7ff"stroke="#6c9"  stroke-linecap="round"/>
+
+    </g>
+
+</svg> 
